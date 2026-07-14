@@ -1,0 +1,1 @@
+gsap.registerPlugin(ScrollTrigger);document.querySelectorAll('.fill').forEach(e=>gsap.to(e,{width:e.dataset.width,duration:1.5,scrollTrigger:{trigger:e,start:'top 90%'}}));
